@@ -5,4 +5,6 @@ workflows:
   build-and-publish-docker-image:
     jobs:
       - docker/publish:
+          docker-password: DOCKERHUB_PASSWORD
+          docker-username: DOCKERHUB_USERNAME
           image: tomatos38/tp1-nodejs
