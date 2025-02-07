@@ -25,4 +25,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: cosmospoulet/tp1-container:latest
+          tags: tomatos38/tp1-nodejs:latest
